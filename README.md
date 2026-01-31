@@ -4,6 +4,13 @@ Este projeto é um dashboard interativo desenvolvido em Python utilizando **Stre
 
 O dashboard oferece filtros dinâmicos, métricas principais (KPIs) e visualizações gráficas detalhadas sobre a distribuição de salários, tipos de contrato e localização.
 
+## 🌐 Acesso à Aplicação
+
+Acesse o dashboard online através do link:
+👉 **[https://benchdata.streamlit.app](https://benchdata.streamlit.app)**
+
+---
+
 ## 🏗️ Arquitetura do Projeto (Padrão MVC)
 
 Para garantir a organização, escalabilidade e facilidade de manutenção do código, o projeto foi refatorado seguindo o padrão de arquitetura **MVC (Model-View-Controller)** adaptado para o fluxo do Streamlit.
@@ -49,7 +56,6 @@ BenchData/
 ├── tests/
 │   └── test_app.py      # Testes automatizados (pytest)
 ├── pyproject.toml    # Definição de dependências (uv)
-├── uv.lock           # Lockfile de versões (uv)
 └── README.md         # Documentação do projeto
 ```
 
