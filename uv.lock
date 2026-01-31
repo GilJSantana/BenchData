@@ -1,3 +1,20 @@
 version = 1
 revision = 1
 requires-python = ">=3.13"
+
+[[package]]
+name = "benchdata"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pandas" },
+    { name = "plotly" },
+    { name = "streamlit" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pandas", specifier = ">=2.3.3" },
+    { name = "plotly", specifier = ">=6.5.2" },
+    { name = "streamlit", specifier = ">=1.53.1" },
+]
